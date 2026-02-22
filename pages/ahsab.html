@@ -3,7 +3,8 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>BODA Profile</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script src="../assets/vendor/tailwind/tailwind-forms-typography.js"></script>
+<link href="../assets/fonts/inter.css" rel="stylesheet"/>
 <script>
         tailwind.config = {
             darkMode: "class",
@@ -27,8 +28,7 @@
             },
         };
     </script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<link href="../assets/fonts/material-icons-outlined.css" rel="stylesheet"/>
 <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -50,9 +50,6 @@
 <header class="bg-surface-light dark:bg-surface-dark px-4 py-3 shadow-sm sticky top-0 z-50">
 <div class="flex items-center justify-between">
 <div class="flex items-center gap-3">
-<button class="text-gray-600 dark:text-gray-300">
-<span class="material-icons-outlined text-2xl">menu</span>
-</button>
 <h1 class="text-2xl font-bold text-primary dark:text-blue-400 tracking-tight">BODA</h1>
 </div>
 <div class="flex items-center gap-4">
@@ -66,6 +63,7 @@
 </div>
 <button class="text-gray-600 dark:text-gray-300">
 <span class="material-icons-outlined text-2xl">favorite_border</span>
+<a href="wishlist.html" class="absolute inset-0"></a>
 </button>
 </div>
 </div>
