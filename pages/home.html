@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BODA Home Screen</title>
+<script src="../assets/js/home.config.js"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<link href="../assets/css/home.css" rel="stylesheet"/>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen pb-24">
+<header class="sticky top-0 z-50 bg-surface-light dark:bg-surface-dark shadow-sm">
+<div class="px-4 py-3 flex items-center justify-between gap-3">
+<a class="p-2 text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors" href="wishlist.html">
+<span class="material-icons-outlined text-2xl">favorite_border</span>
+</a>
+<div class="flex-1 relative">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-icons-outlined text-slate-400 text-xl">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2 border border-slate-200 dark:border-slate-600 rounded-lg bg-slate-50 dark:bg-slate-800 text-sm placeholder-slate-400 focus:outline-none focus:border-secondary dark:focus:border-primary focus:ring-1 focus:ring-secondary dark:focus:ring-primary transition-colors" id="home-search" placeholder="What are you looking for?" type="text"/>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-secondary dark:text-white font-black text-2xl tracking-tighter flex items-center">
+<span class="text-primary mr-1">
+<span class="material-icons-outlined align-middle text-2xl">shopping_bag</span>
+</span>
+                    BODA
+                </div>
+<button class="p-1 text-slate-500 dark:text-slate-400">
+<span class="material-icons-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+<div class="bg-white dark:bg-surface-dark border-t border-slate-100 dark:border-slate-700 px-4 py-2 flex items-center justify-between text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+<div class="flex items-center gap-1 truncate max-w-[80%]">
+<span class="font-medium text-slate-400 dark:text-slate-500">Deliver to</span>
+<div class="flex items-center font-medium text-slate-800 dark:text-slate-200 truncate">
+<span>Dubai Marina, Street 4...</span>
+</div>
+</div>
+<span class="material-icons-outlined text-secondary dark:text-primary text-lg">location_on</span>
+</div>
+</header>
+<main class="w-full max-w-md mx-auto sm:max-w-full">
+<section class="mt-4 px-4">
+<div class="w-full overflow-x-auto hide-scrollbar flex snap-x snap-mandatory gap-4">
+<div class="snap-center shrink-0 w-full relative aspect-[2/1] rounded-2xl overflow-hidden bg-gradient-to-br from-secondary to-blue-900 shadow-lg">
+<div class="absolute inset-0 flex flex-col justify-center px-6 z-10">
+<span class="text-orange-300 text-xs font-bold uppercase tracking-wider mb-2">New Arrival</span>
+<h2 class="text-white text-2xl sm:text-3xl font-bold leading-tight mb-4">Smart Watch<br/>Series 8</h2>
+<button class="w-fit bg-primary text-white text-xs font-bold py-2 px-4 rounded-full shadow-md hover:bg-orange-600 transition">
+                            Shop Now
+                        </button>
+</div>
+<div class="absolute right-[-20px] bottom-[-20px] w-48 h-48 bg-white/10 rounded-full blur-2xl"></div>
+<div class="absolute right-4 top-1/2 -translate-y-1/2">
+<img alt="Smart Watch" class="w-32 h-32 object-contain drop-shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ-_yJLnSpQsO1L2XfkrJ5Ve7ZAFXkZL2ovpWUx7vjLkwE8qkfGw77FYljqnyBJc4JuP5IUrznUdZlS4PegFrSgkC9F0EQ7gL5EcVUyJXIOCF58uLJcG0TaiTCyDHHf4CRunhm2CpecawyHwu620CuDSWCdUs3tzzjgJsWUwPCmkKHFZnrZxcbrkEXa2D8Gx1gBun4_Fbuv28UPuyrandzZDH2qf_eKZcIvBzLRTqlymQxMXLNRR9piMouAMFI3AkbMAgEJtW0-qY"/>
+</div>
+</div>
+<div class="snap-center shrink-0 w-full relative aspect-[2/1] rounded-2xl overflow-hidden bg-gradient-to-br from-orange-500 to-red-600 shadow-lg">
+<div class="absolute inset-0 flex flex-col justify-center px-6 z-10">
+<span class="text-white/80 text-xs font-bold uppercase tracking-wider mb-2">Mega Sale</span>
+<h2 class="text-white text-2xl sm:text-3xl font-bold leading-tight mb-4">50% OFF<br/>Headphones</h2>
+<button class="w-fit bg-white text-orange-600 text-xs font-bold py-2 px-4 rounded-full shadow-md hover:bg-slate-100 transition">
+                            View Offers
+                        </button>
+</div>
+<div class="absolute right-4 top-1/2 -translate-y-1/2">
+<img alt="Headphones" class="w-32 h-32 object-contain drop-shadow-2xl grayscale brightness-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAH0i77gchrp8rcRHyaW4i05CZ2hzNmLYX_WeaxwnhHAnOdF-eE9wPuiDSWe-_HywKPyWIR8MWSCb0-Q5s0aKnkUL6rZh-ysFiYzN_BK4QeGlDu6reIsTufD4U8s6S_0TTwDjQlt5HR_PK6b2YCpNYBz-u0xnZrOehdP6_5tBG8F8uNX2ldpC7evHDv1nWoR-BTZ9ZxcgyH58NG03scCLrk0-EJozOprMoupE9_1clVNwk3VyCcDWFaU7ck_kiW6zFIJt2L6s2EBLA"/>
+</div>
+</div>
+</div>
+<div class="flex justify-center gap-1.5 mt-3">
+<div class="w-2 h-2 rounded-full bg-secondary dark:bg-primary"></div>
+<div class="w-2 h-2 rounded-full bg-slate-300 dark:bg-slate-600"></div>
+<div class="w-2 h-2 rounded-full bg-slate-300 dark:bg-slate-600"></div>
+</div>
+</section>
+<section class="mt-8 px-4">
+<h3 class="text-lg font-bold text-slate-800 dark:text-slate-100 text-right mb-4">Shop by Category</h3>
+<div class="grid grid-cols-4 gap-y-6 gap-x-2">
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Electronics" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDevPITOaHKi1Glq9xG0WM58jg3FBqE8WxW221EnHLLvFODOgMxlDdIBWUNpQ8wUKYdnm1uROTDRKQqVRHdeGifUcR_qiJZT0F5aj5dgf6QwNzLMp_Q4Jfo6ZJo6TymZy0Oc9YfsSL5b3uZOws8yIPLDEayTFqWPuoDE_CCcXRSeaKxAe2tiGIXOBUSAmgxQ3l0OaNsNLeWVT0S6HmGYKPx8IT9rEx2-J3RqvDgw_hgAiqITWOfWBpjQ72Ifc6r4-0AVv5CRqNG6WQ"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Mobiles</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Fashion" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvTvQFiosLp_OwpPFNADFWsRI9EKmS20oPSFLrBOj5swfLHWNRLJ7pJt43EVw1S-D0EeSoXqFiOGHNxxsQB5U1iEzCOQ81qWal3om5vzK0fiEqUOKRkctBzm1Xeh1TS4lQLayDwltvBOUr96FUvFdrur8GFfTrD7aGUE8Q609XEHSYiq9IL-8auAEgDzyi3UeOc87OY5bHW9mqON5G1stya-skdMH9lznvUF4gOKxbXA0oYv7tOzmYoZVMn6cNIdkiZDsaWqwEtj4"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Fashion</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Home" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2DErnUGtRIYjFJ_jvhwCahHE8YsDsZ3oyJGHgw9Cfyg7tHlniysk4Xyh9Gk6eM9MY1Y-c-wgoGDrtDCi3VXc4T1lz2jgmaDvaRx-TTBTmeb8TnJ-Fkawt5AZHAJJKWALadeiIYkkbRRVKUICICKAMvVxfImMVo7j-K3tOH936Uo-t_3THJ4SpmeEu3ZwDTyZZJLcBoJjgQsx0r1xtefzPS-WxF0sdsvBn_wp9ohSzVdTHpO4OJs1ltyHfYtBI-3EHRQWuYn5b5_Q"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Home</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Beauty" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYc0bDNOn7D0tg5OSbByDMIGZH4fJhLjAF-Lt8mjwxl0xaxzKTi9vaFmnaUpjrYInrBnjqHyyk0fO8nR_85GF4gFj4R694iu5enUonjtOa7DTSX5u_i1AkyKCx94jSGAslQV_89G3NQ0HlqmQzJZNqh2PWl9FX82mNX-O2V3FYcg6UQXIYOQXL31YOOpeiX01ytq6KzwGyirWJUw5pkm_-zXFkfDqrOVtEfpGefK9MaLfGjbKulPI5dLVFCCuHWvW4LVpo1k0g3Go"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Beauty</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Kitchen" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFJpDizC29IcoUX9j_PIDJAHagk92WhwSMu_xsJHGDTtfKh6QPPur88YnZRNwTvE9Cu2VzMLH_VCKeMLZztAHJrYBlYRkjtleu2yC4Ec2khfcL_-1CHmRyQEK8lgABd0Y3XqnhSsUe-NSlZNxWphOuYVstbtxJhS60TPEWw0tmclInxLl8R5Zb6bwN645vktcbMJF3Bse-XA6kajtqAq5K4PeSKlPWwyUZDs6NsnP_ZNQhzEstDE52flD0JeA8345l8uSZJuxF8VM"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Kitchen</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Sports" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4zcrbVFA4hVH6KpUArsDkiQ8wwh5pVQ59hADXclPpAR0BjQpkGulyKtgARnltcKyiAjeZnIB88-QgG4oCQ2fb4tcJ78ElB1-XUc4qAbi8wH06l255DjiQlbPAzzF3yh2eBu57RVZX9Zf5hsyMVoATYXSMBS1G0PxGyUHxwt7oIjVHmQbAbXiuYSZsRB7IbAjM4dYbGLRD9kAhvAgEuxgldO5cfjBHBmbhVjg0bKhOk74FZAMogCASUafkQ9eCLpPgMwYYWvoOqMU"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Sports</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Laptops" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQiVJrtDTCMSlufwu88N9e6-tVKItKafg7E5NpomSOj8YURcf_rSRi26mPfmjnC3Rat6JAflygbCly8D3fZcUDDKqB6gi87Xp6iX-pqSZQAx15-Yc_wSkuzoQyUpfeivIsIKL5oY84v35k_9dzaqxy5CfCKTsCqzRo3knFrKYc081OLNb4-XsfCOnD9ntfsUo_v6jgWlSL2ULXDnkF38ZW_2pZO5pSiP5QspuJtbXZlAdokqBrv6ZM3yoLtkk9_eLSyFR927W5qRI"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Laptops</span>
+</div>
+<div class="flex flex-col items-center group cursor-pointer">
+<div class="w-16 h-16 rounded-2xl bg-[#FFF6E9] dark:bg-slate-800 flex items-center justify-center mb-2 shadow-sm border border-transparent group-hover:border-primary transition-all relative overflow-hidden">
+<div class="absolute bottom-0 w-full h-1 bg-primary"></div>
+<img alt="Grocery" class="w-8 h-8 opacity-80 dark:invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcuXwkCS3H3iKbRr0AV7L9j4bNpi2FaxfT_frsEtgvzTbLO4NbcN07STaFO86AK1rdNQycOyhzceUYEaTcvtwvbWg6A6ViNbfSZUJOVZWbSP0LiA6aLroF4xoDo6ixjm1g4ar4jPxRwUasOIz9jFRJMRK2SR7LEKpWObkKislc4cd1R2hqXT-7WxIWd7Rn8jT69r1PvTElQ_0r3sERHF3fnQe-C2w3fY53fUT3mowFdScCAKbg1rXh5iOI6I1LucZxNyfxWDIv1jk"/>
+</div>
+<span class="text-xs font-medium text-slate-600 dark:text-slate-400 text-center leading-tight">Grocery</span>
+</div>
+</div>
+</section>
+<section class="mt-8 px-4 mb-4">
+<div class="flex items-center justify-between mb-4">
+<button class="text-sm font-semibold text-primary">View All</button>
+<h3 class="text-lg font-bold text-slate-800 dark:text-slate-100">Deals of the Day</h3>
+</div>
+<div class="flex gap-4 overflow-x-auto hide-scrollbar pb-4" id="home-products"></div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 right-0 bg-white dark:bg-surface-dark border-t border-slate-200 dark:border-slate-700 pb-safe pt-2 px-2 z-50">
+<div class="flex justify-around items-center">
+<a class="flex flex-col items-center gap-1 w-full py-1 text-secondary dark:text-primary" href="home.html">
+<span class="material-icons-outlined text-2xl">home</span>
+<span class="text-[10px] font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 w-full py-1 text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300" href="products.html">
+<span class="material-icons-outlined text-2xl">grid_view</span>
+<span class="text-[10px] font-medium">Categories</span>
+</a>
+</a>
+<a class="flex flex-col items-center gap-1 w-full py-1 text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300" href="ahsab.html">
+<span class="material-icons-outlined text-2xl">person_outline</span>
+<span class="text-[10px] font-medium">My Account</span>
+</a>
+<a class="flex flex-col items-center gap-1 w-full py-1 text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 relative" href="empty-cart.html">
+<span class="material-icons-outlined text-2xl">shopping_cart</span>
+<span class="absolute top-0 right-[25%] bg-primary text-white text-[8px] font-bold px-1 rounded-full nav-cart-0" id="nav-cart-count">0</span>
+<span class="text-[10px] font-medium">Cart</span>
+</a>
+</div>
+<div class="h-6 w-full"></div> 
+</nav>
+
+<script src="../assets/js/store.js"></script>
+<script src="../assets/js/home.js"></script>
+</body></html>
